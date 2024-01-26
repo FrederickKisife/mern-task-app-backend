@@ -13,7 +13,7 @@ const app = express()
 // Middleware
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:3000/","https://mern-task-app-api-wsui.onrender.com"]
+    origin: ["http://localhost:3000/","https://mern-task-app-jk5u.onrender.com"]
 }));
 app.use(express.urlencoded({extended: false}))
 app.use("/api/tasks",taskRoutes)
